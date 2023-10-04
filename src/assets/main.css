@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Vazir;
+    src: url("vazir.ttf");
+}
+
+html, body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Vazir;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.ltr, .ltr * {
+    direction: ltr;
+}
+
+.text-h1, .text-h2 {
+    font-family: Vazir !important;
+}
+
+.v-list-item__prepend {
+    width: 32px;
+}
